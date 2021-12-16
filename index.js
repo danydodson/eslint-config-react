@@ -8,7 +8,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['prettier'],
+  extends: ['prettier', 'plugin:react/recommended',],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
