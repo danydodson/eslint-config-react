@@ -30,27 +30,30 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1"
   },
-  "license": "MIT",
-  "author": "Dany Dodson <dodson@gmail.com>",
+  "author": {
+    "name": "Dany Dodson",
+    "email": "danydodson@gmail.com",
+    "twitter": "@danydodson"
+  },
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danydodson/eslint-config-react.git"
   },
+  "homepage": "https://github.com/danydodson/eslint-config-react#readme",
   "bugs": {
     "url": "https://github.com/danydodson/eslint-config-react/issues"
   },
-  "homepage": "https://github.com/danydodson/eslint-config-react#readme",
   "keywords": [
     "javascript",
     "eslint",
     "eslintconfig",
     "eslint-config",
-    "airbnb-config",
     "prettier-config",
     "react",
     "hooks",
     "react-hooks",
-    "imaginary-cloud",
-    "imaginarycloud"
+    "dany dodson",
+    "danydodson"
   ]
 }
