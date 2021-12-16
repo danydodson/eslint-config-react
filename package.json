@@ -1,6 +1,6 @@
 {
   "name": "@danydodson/eslint-config-react",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "ESLint React configuration for JS projects based on Prettier configs",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "prettier": "@danydodson/prettier-config",
   "dependencies": {
-    "@danydodson/prettier-config": "^1.2.0",
+    "@danydodson/prettier-config": "^1.3.0",
     "eslint": "^8.4.1",
     "prettier": "^2.5.1"
   },
