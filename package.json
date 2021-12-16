@@ -1,0 +1,56 @@
+{
+  "name": "@danydodson/eslint-config-react",
+  "version": "1.0.0",
+  "description": "ESLint React configuration for JS projects based on Prettier configs",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write **/*.js",
+    "lint": "eslint ./ --ignore-path .gitignore",
+    "lint:fix": "eslint . --fix"
+  },
+  "prettier": "@danydodson/prettier-config",
+  "dependencies": {
+    "@danydodson/prettier-config": "^1.0.0",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  },
+  "license": "MIT",
+  "author": "Dany Dodson <dodson@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danydodson/eslint-config-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danydodson/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/danydodson/eslint-config-react#readme",
+  "keywords": [
+    "javascript",
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "airbnb-config",
+    "prettier-config",
+    "react",
+    "hooks",
+    "react-hooks",
+    "imaginary-cloud",
+    "imaginarycloud"
+  ]
+}
