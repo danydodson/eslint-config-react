@@ -11,7 +11,7 @@
   },
   "prettier": "@danydodson/prettier-config",
   "dependencies": {
-    "@danydodson/prettier-config": "^1.1.0",
+    "@danydodson/prettier-config": "^1.2.0",
     "eslint": "^8.4.1",
     "prettier": "^2.5.1"
   },
