@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/danydodson/eslint-config-react/compare/v1.1.0...v1.2.0) (2021-12-16)
+
+
+### Features
+
+* :wrench: initial commit ([24e2150](https://github.com/danydodson/eslint-config-react/commit/24e21507321dd23f0a76bb6256b5d26868ed34b3))
+
 ## 1.1.0 (2021-12-16)
 
 
