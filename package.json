@@ -4,16 +4,21 @@
   "description": "ESLint React configuration for JS projects based on Prettier configs",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./ --ignore-path .gitignore",
-    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"./**/*.{js,jsx,json,md,mdx,css}\"",
+    "lint": "eslint . --ignore-path .gitignore",
+    "lint:fix": "eslint . --fix --ignore-path .gitignore",
     "release": "standard-version"
   },
   "dependencies": {
-    "eslint": "^8.4.1"
+    "@danydodson/prettier-config": "^1.6.0",
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "standard-version": "^9.3.2"
@@ -21,6 +26,7 @@
   "peerDependencies": {
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0"
   },

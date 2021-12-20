@@ -1,16 +1,6 @@
+const prettierConfig = require('@danydodson/prettier-config')
+
 module.exports = {
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    node: true,
-    jest: true
-  },
-  extends: ['plugin:react/recommended'],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
-  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -18,21 +8,34 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module'
   },
-  plugins: ['react', 'react-hooks', 'jsx-a11y'],
+  env: {
+    browser: true,
+    commonjs: true,
+    es6: true,
+    node: true,
+    jest: true
+  },
+  extends: ['plugin:react/recommended', 'prettier'],
+  plugins: ['react', 'react-hooks', 'jsx-a11y', 'prettier'],
   settings: {
     react: {
       version: 'detect'
     }
   },
   ignorePatterns: ['node_modules/'],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly'
+  },
   rules: {
+    'prettier/prettier': [2, prettierConfig],
     'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
     'import/prefer-default-export': 0,
     'max-len': 0,
     'newline-per-chained-call': 0,
     'no-confusing-arrow': 0,
-    'no-console': 1,
+    'no-console': 0,
     'no-unused-vars': 0,
     'no-use-before-define': 0,
     'react/prop-types': 0,
