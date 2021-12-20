@@ -8,7 +8,6 @@
     "lint:fix": "eslint . --fix",
     "release": "standard-version"
   },
-  "prettier": "@danydodson/prettier-config",
   "dependencies": {
     "eslint": "^8.4.1"
   },
@@ -27,8 +26,7 @@
   },
   "author": {
     "name": "Dany Dodson",
-    "email": "danydodson@gmail.com",
-    "twitter": "@danydodson"
+    "email": "danydodson@gmail.com"
   },
   "license": "ISC",
   "repository": {
