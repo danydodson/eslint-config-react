@@ -1,5 +1,3 @@
-const prettierConfig = require('@danydodson/prettier-config')
-
 module.exports = {
   env: {
     browser: true,
@@ -8,7 +6,7 @@ module.exports = {
     node: true,
     jest: true
   },
-  extends: ['prettier', 'plugin:react/recommended'],
+  extends: ['plugin:react/recommended'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
@@ -20,7 +18,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module'
   },
-  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y'],
+  plugins: ['react', 'react-hooks', 'jsx-a11y'],
   settings: {
     react: {
       version: 'detect'
@@ -28,7 +26,6 @@ module.exports = {
   },
   ignorePatterns: ['node_modules/'],
   rules: {
-    'prettier/prettier': [2, prettierConfig],
     'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
     'import/prefer-default-export': 0,
@@ -50,15 +47,13 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
     'react/jsx-no-target-blank': 0,
     'react/jsx-uses-vars': 2,
-    'react-hooks/rules-of-hooks': 2,
     'jsx-a11y/aria-props': 2,
     'jsx-a11y/heading-has-content': 0,
     'jsx-a11y/label-has-for': 0,
+    'jsx-a11y/label-has-associated-control': [2, { controlComponents: ['Input'] }],
     'jsx-a11y/mouse-events-have-key-events': 2,
     'jsx-a11y/role-has-required-aria-props': 2,
     'jsx-a11y/role-supports-aria-props': 2,
-    // If this error triggers, either disable it or add your custom components to controlComponents
-    // See https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
-    'jsx-a11y/label-has-associated-control': [2, { controlComponents: ['Input'] }]
+    'react-hooks/rules-of-hooks': 2
   }
 }
