@@ -1,6 +1,6 @@
 {
   "name": "@danydodson/eslint-config-react",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "ESLint React configuration for JS projects based on Prettier configs",
   "main": "index.js",
   "scripts": {
