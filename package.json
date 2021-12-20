@@ -1,6 +1,6 @@
 {
   "name": "@danydodson/eslint-config-react",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "ESLint React configuration for JS projects based on Prettier configs",
   "main": "index.js",
   "scripts": {
@@ -9,28 +9,29 @@
     "lint:fix": "eslint . --fix --ignore-path .gitignore",
     "release": "standard-version"
   },
-  "prettier": "@danydodson/prettier-config",
   "dependencies": {
-    "@danydodson/prettier-config": "^1.6.0",
-    "eslint": "^8.5.0",
-    "prettier": "^2.5.1"
+    "@danydodson/prettier-config": "^1.6.0"
   },
   "devDependencies": {
+    "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
     "standard-version": "^9.3.2"
   },
   "peerDependencies": {
+    "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1"
   },
   "author": {
     "name": "Dany Dodson",
