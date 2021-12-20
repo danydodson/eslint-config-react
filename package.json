@@ -1,6 +1,6 @@
 {
   "name": "@danydodson/eslint-config-react",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "ESLint React configuration for JS projects based on Prettier configs",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "lint:fix": "eslint . --fix --ignore-path .gitignore",
     "release": "standard-version"
   },
+  "prettier": "@danydodson/prettier-config",
   "dependencies": {
     "@danydodson/prettier-config": "^1.6.0",
     "eslint": "^8.5.0",
