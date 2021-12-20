@@ -19,8 +19,8 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
   },
-  extends: ['prettier', 'plugin:react/recommended'],
-  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y'],
+  extends: ['plugin:react/recommended', 'prettier'],
+  plugins: ['react', 'react-hooks', 'jsx-a11y', 'prettier'],
   settings: {
     react: {
       version: 'detect'
